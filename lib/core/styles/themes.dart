@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 class Themes {
   static ThemeData get light => ThemeData(
+  
+    dividerColor: Colors.transparent,
     inputDecorationTheme: InputDecorationTheme(
       fillColor: AppColors.accentGrey,
       filled: true,

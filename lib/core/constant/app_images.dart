@@ -13,4 +13,13 @@ class AppImages {
   static const String fruits = "assets/images/fruits.png";
   static const String oil = "assets/images/oil.png";
   static const String meat = "assets/images/fish_meat.png";
+  static const String pepper = "assets/images/pepper.png";
+  static const String cocacola = "assets/images/cocacola.png";
+  static const String cocaDiet = "assets/images/coca_diet.png";
+  static const String pepsi = "assets/images/pepsi.png";
+  static const String sprite = "assets/images/sprite.png";
+  static const String treeTopApple = "assets/images/tree_top_apple.png";
+  static const String treeTopOrange = "assets/images/tree_top_orange.png";
+  static const String orderAdded = "assets/images/order_added.png";
+  static const String settingSvg = "assets/icons/settings.svg";
 }

@@ -10,13 +10,13 @@ class GridViewForHome extends StatelessWidget {
     return GridView.builder(
       physics: NeverScrollableScrollPhysics(),
       shrinkWrap: true,
-      itemCount: offers.length,
+      itemCount: allProducts.length,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisSpacing: 10,
         childAspectRatio: .7,
         crossAxisCount: 2,
       ),
-      itemBuilder: (context, index) => ItemCard(model: offers[index]),
+      itemBuilder: (context, index) => ItemCard(model: allProducts[index]),
     );
   }
 }

@@ -1,6 +1,5 @@
 import 'package:ecommerce_depi/core/constant/app_images.dart';
 import 'package:ecommerce_depi/core/styles/app_colors.dart';
-import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
 
 class DummyDataExplore {
@@ -26,6 +25,7 @@ List<DummyDataExplore> exploreItems = [
     backGround: AppColors.accentGreen,
     borderColor: AppColors.accentGreen,
     id: "1",
+
   ),
   DummyDataExplore(
     image: Image.asset(AppImages.oil, ),
@@ -53,13 +53,13 @@ List<DummyDataExplore> exploreItems = [
     name: "Dairy & Eggs",
     backGround: AppColors.lightYelloweColor,
     borderColor: AppColors.lightYelloweColor,
-    id: "5",
+    id: "6",
   ),
   DummyDataExplore(
     image: Image.asset(AppImages.beverages, ),
     name: "Beverages",
     backGround: AppColors.lightBlueColor,
     borderColor: AppColors.lightBlueColor,
-    id: "6",
+    id: "5",
   ),
 ];

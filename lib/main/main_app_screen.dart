@@ -1,7 +1,9 @@
 import 'package:ecommerce_depi/core/constant/app_images.dart';
 import 'package:ecommerce_depi/core/styles/app_colors.dart';
 import 'package:ecommerce_depi/core/widgets/svg_active_icon.dart';
+import 'package:ecommerce_depi/feature/cart/pages/cart_screen.dart';
 import 'package:ecommerce_depi/feature/explore/page/explore_screen.dart';
+import 'package:ecommerce_depi/feature/favorite/pages/favorite_screen.dart';
 import 'package:ecommerce_depi/feature/home/page/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -18,8 +20,8 @@ class _MainAppScreenState extends State<MainAppScreen> {
   List<Widget> screen = [
     HomeScreen(),
     ExploreScreen(),
-    Center(child: Text("data")),
-    Center(child: Text("data")),
+    CartScreen(),
+    FavoriteScreen(),
     Center(child: Text("data")),
   ];
 

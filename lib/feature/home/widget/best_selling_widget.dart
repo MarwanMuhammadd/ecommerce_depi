@@ -12,12 +12,12 @@ class BestSellingWidget extends StatelessWidget {
       child: ListView.separated(
         scrollDirection: Axis.horizontal,
         separatorBuilder: (context, index) => SizedBox(width: 10),
-        itemCount: offers.length,
+        itemCount: bestSellingProducts.length,
         itemBuilder:
             (context, index) => SizedBox(
               height: 120,
               width: 160,
-              child: ItemCard(model: offers[index]),
+              child: ItemCard(model: bestSellingProducts[index]),
             ),
       ),
     );

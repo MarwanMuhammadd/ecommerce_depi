@@ -15,4 +15,5 @@ class AppColors {
   static const Color lightYelloweColor = Color(0xFFFDE598);
   static const Color lightPurbleColorAccent = Color(0xFFD3B0E0);
   static const Color blackNormal = Color(0xFF37474F);
+  static const Color whiteAccent = Color(0xFFF2F3F2);
 }
